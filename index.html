@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="js/main.js">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8">
+
+	<!-- <div class="bgimg" style="background-image: url(img/background1.png); height: 500px; width: 100%;"></div> -->
+  <header>
+  <h1 class="logo">Dino Park</h1>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <nav>
+    <ul>
+      <li><a href="#">Game</a></li>
+      <li><a href="#carousel">About</a></li>
+      <li><a href="#login">login</a></li>
+      <li><a href="#socialmedia">Social Media</a></li>
+    </ul>
+  </nav>
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
+</header>
+<div class="container">
+	<div class="textdiv">
+    <div class="button">
+    <span class="btn btn-small submit"><a href="quiz.html" class="play">PLAY!</a></span>
+    </div>
+  </div>
+	<div class="imgdiv">
+ 		<img class="bgimg" src="img/background1.png">
+    <div class="text">
+ 		<div id="about" class="text-block"> 
+    	<h2>Dino Park</h2>
+    	<p>Dino Park is an incredible theme park in Cape Town, offering rollercoasters and water rides that will be sure to get the heart beating a mile a minute. With more than 30 fun-filled attractions, your day will be filled to the brim with screams of delight and adventure.</p>
+      </div>
+      <div class="textimg">
+        <img src="img/dinosaur.png" style="width: 300px; z-index: 3; position: relative; margin-top: 10vh; margin-left: 20vw;">
+      </div>
+    </div>
+ 	
+</div>
+<div id="carousel" class="textdiv">
+  <div class="carousel-wrapper" style="height: 510px;z-index: 2;margin-top: -40px;">
+  
+  <span id="target-item-1"></span>
+  <span id="target-item-2"></span>
+  <span id="target-item-3"></span>
+ 
+  <div class="carousel-item item-1" style="background-color: khaki;">
+    <div class="incar">
+      <img class="dino" src="img/veloc.png">
+      <div class="incar-text">
+    <p>Taxonomic details:
+      Taxonomy:Dinosauria, Saurischia, Theropoda, Neotheropoda, Tetanurae, Avetheropoda, Coelurosauria, Tyrannoraptora, Maniraptoriformes, Maniraptora, Paraves, Eumaniraptora, Dromaeosauridae<br>
+      Named by: Osborn (1924)<br>
+      Type species: mongoliensis</p>
+      </div>
+    </div>
+    
+    <a class="arrow arrow-prev" href="#target-item-3"></a>
+    <a class="arrow arrow-next" href="#target-item-2"></a>
+  </div>
+  <div class="carousel-item item-2 light" style="background-color: royalblue;">
+     <div class="incar">
+      <img src="img/tala.png">
+      <div class="incar-text">
+    <p>Taxonomic details Taxonomy: Dinosauria, Ornithischia, Genasauria, Thyreophora, Ankylosauromorpha, Ankylosauria, Ankylosauridae Named by: Maleev (1952) Type species: plicatospineus</p>
+      </div>
+    <a class="arrow arrow-prev" href="#target-item-1"></a>
+    <a class="arrow arrow-next" href="#target-item-3"></a>
+  </div>
+</div>
+  <div class="carousel-item item-3" style="background-color: aliceblue;">
+     <div class="incar">
+      <img src="img/tri.png">
+      <div class="incar-text">
+    <p>With its 3 horns, a parrot-like beak and a large frill that could reach nearly 1 metre (3 feet) across, the Triceratops skull is one of the largest and most striking of any land animal. The horns could have been used to fend off attacks from Tyrannosaurus. A partial Triceratops fossil collected in 1997 has a horn that was bitten off, with bite marks that match Tyrannosaurus. The fossil shows that the horn healed after being bitten, so at least some Triceratops survived these encounters. Puncture marks on fossil frills show that male Triceratops also used their horns to fight each other, probably to impress females.</p>
+      </div>
+    <a class="arrow arrow-prev" href="#target-item-2"></a>
+    <a class="arrow arrow-next" href="#target-item-1"></a>
+  </div>
+</div>
+</div>
+</div>
+<div class="imgdiv">
+ 		<img class="bgimg" src="img/background1.png">
+ 		<div class="text-block1"> 
+    	<h2>But why?</h2>
+    	<p>The reason why we created this theme park is to preserve the information about the past giants of the earth, the animals that roamed the world before we even new they existed. The park is filled with tons of fun and many attraction such as the rides and the biggest museum of dinosaurs in the world</p>
+	</div>
+</div>
+<div id="login" class="form">
+  <div class="loginbox">
+  <img src="img/icon.png" class="avatar">
+  <h1>Login Here</h1>
+  <form>
+    <p>Username</p>
+    <input type="text" placeholder="Enter Username" name="">
+    <p>Password</p>
+    <input type="Password" name="" placeholder="Enter Password">
+    <input type="submit" name="" value="Login">
+    <a href="#">Lost Your password?</a><br>
+    <a href="#">Dont't have an account?</a>
+
+  </form>
+</div>
+</div>
+<div class="imgdiv">
+    <img class="footerbg" src="img/background2.png">
+    <div id="socialmedia" class="icons">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    </div>
+    
+  </div>
+</div>
+<body>
+<script src="js/main.js"></script> 
+</body>
+</html>
